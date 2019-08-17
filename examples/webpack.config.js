@@ -24,7 +24,7 @@ module.exports={
         enforce:'pre',
         use:[
           {
-            loader:'tsline-loader'
+            loader:'tslint-loader'
           }
         ]
       },

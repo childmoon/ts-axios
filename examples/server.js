@@ -68,6 +68,14 @@ function registerExtendRouter(){
   })
 }
 
+function registerInterceptorRouter(){
+  router.get('/interceptor/get',function (req,res) {
+    res.end('hello')
+  })
+}
+
+// registerInterceptorRouter()
+
 router.get('/simple/get',function (req,res) {
   res.json({
     mes:`hello world`
